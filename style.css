@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #2b2e2b;
+  background-color: #faf9f6;
+  line-height: 1.6;
+}
+
+/* Header & Nav */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 8%;
+  background: #ffffff;
+  border-bottom: 1px solid #e9ece9;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1a3323;
+}
+
+.logo span {
+  color: #6b2d5c; /* acai berry accent */
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #444f47;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.nav-btn {
+  background: #1a3323;
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+/* Hero */
+.hero {
+  padding: 5.5rem 8%;
+  background: linear-gradient(135deg, #f3edea 0%, #e6ece7 100%);
+}
+
+.hero-content {
+  max-width: 680px;
+}
+
+.tagline {
+  color: #6b2d5c;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  line-height: 1.25;
+  color: #17261c;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  color: #4e5751;
+  margin-bottom: 2rem;
+}
+
+.hero-cta a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background: #1a3323;
+  color: #fff;
+  margin-right: 0.75rem;
+}
+
+.secondary-btn {
+  background: #ffffff;
+  color: #1a3323;
+  border: 1px solid #c9d2cb;
+}
+
+/* Sections */
+.section {
+  padding: 5rem 8%;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  color: #17261c;
+  margin-bottom: 0.5rem;
+}
+
+.section-header p {
+  color: #5c6660;
+}
+
+/* Products Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5ece6;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.card-img {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-body {
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.badge {
+  display: inline-block;
+  align-self: flex-start;
+  background: #f5edf3;
+  color: #6b2d5c;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.card-body h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: #17261c;
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: #556158;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.card-btn {
+  margin-top: auto;
+  text-align: center;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+/* Why Section */
+.why-section {
+  background: #f0f4f1;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.feature-box {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #6b2d5c;
+}
+
+.feature-box h3 {
+  margin-bottom: 0.75rem;
+  color: #17261c;
+}
+
+/* About Section */
+.about-section {
+  background: #ffffff;
+  text-align: center;
+}
+
+.about-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about-wrap h2 {
+  font-size: 1.85rem;
+  margin-bottom: 1rem;
+  color: #17261c;
+}
+
+.about-wrap p {
+  color: #556158;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Footer */
+footer {
+  background: #142419;
+  color: #cad5ce;
+  padding: 3.5rem 8% 2rem;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #233b2a;
+}
+
+.footer-wrap h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-wrap strong {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 1.75rem;
+  color: #8c9e93;
+}
