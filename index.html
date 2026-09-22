@@ -1,121 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Plant Chapter | Bring Nature Home</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Plant Chapter | Nature's Finest</title>
+<meta name="description" content="The Plant Chapter — açaí berry powder, medjool dates, tofu and protein bars. A brand by The Everyday Basket LLP.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <header class="navbar">
-    <div class="logo">The Plant Chapter<span>.</span></div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">
+      <img src="assets/logo.png" alt="The Plant Chapter" class="logo-img">
+    </a>
     <nav>
-      <a href="#plants">Collection</a>
-      <a href="#care">Care Guide</a>
+      <a href="#products">Products</a>
       <a href="#about">About</a>
-      <a href="#contact" class="nav-btn">Contact</a>
+      <a href="#contact">Contact</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <p class="tagline">Grown with Care, Delivered to Your Door</p>
-      <h1>Every plant has a story. Begin your next chapter.</h1>
-      <p class="subtext">Curated indoor plants, low-maintenance greens, and handcrafted planters for your home and workspace.</p>
-      <div class="hero-cta">
-        <a href="#plants" class="primary-btn">Explore Collection</a>
-        <a href="#care" class="secondary-btn">Read Plant Care</a>
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">Nature&rsquo;s Finest</p>
+    <h1>Every chapter starts with what nature gives us.</h1>
+    <p class="hero-sub">Clean, simple, plant-based foods &mdash; açaí, dates and tofu &mdash; with nothing extra added.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </div>
+</section>
+
+<section id="products" class="products">
+  <div class="container">
+    <h2>Our Products</h2>
+    <p class="section-sub">Sourced honestly, packed simply.</p>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="assets/acai-powder.png" alt="Açaí Berry Powder">
+        <span class="tag">100% Freeze-Dried</span>
+        <h3>Açaí Berry Powder</h3>
+        <p>Blend into smoothies, bowls &amp; yoghurt.</p>
+        <p class="sizes">Available in 50 g &amp; 100 g pouches</p>
+        <a class="btn-outline" href="https://wa.me/?text=Hi%2C%20I%27d%20like%20to%20order%20A%C3%A7a%C3%AD%20Berry%20Powder">Order via WhatsApp</a>
       </div>
-    </div>
-  </section>
 
-  <!-- Featured Plants -->
-  <section id="plants" class="section">
-    <div class="section-header">
-      <h2>Featured Plants</h2>
-      <p>Handpicked varieties adapted for bright to low-light indoor spaces.</p>
-    </div>
-
-    <div class="grid">
-      <article class="card">
-        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1593482892290-f54927ae1bf6?auto=format&fit=crop&w=600&q=80');"></div>
-        <div class="card-body">
-          <span class="badge">Low Light</span>
-          <h3>Monstera Deliciosa</h3>
-          <p class="price">₹699</p>
-          <p class="desc">Iconic split leaves; thrives in indirect daylight with weekly watering.</p>
-          <a href="https://wa.me/?text=Hi%2C+I+want+to+order+the+Monstera+Deliciosa" class="card-btn">Order via WhatsApp</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=600&q=80');"></div>
-        <div class="card-body">
-          <span class="badge">Air Purifier</span>
-          <h3>Snake Plant Zeylanica</h3>
-          <p class="price">₹449</p>
-          <p class="desc">Virtually indestructible; filters indoor air and requires minimal water.</p>
-          <a href="https://wa.me/?text=Hi%2C+I+want+to+order+the+Snake+Plant" class="card-btn">Order via WhatsApp</a>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=600&q=80');"></div>
-        <div class="card-body">
-          <span class="badge">Beginner Friendly</span>
-          <h3>ZZ Plant (Zamioculcas)</h3>
-          <p class="price">₹549</p>
-          <p class="desc">Deep green glossy foliage that handles neglect and dry conditions with ease.</p>
-          <a href="https://wa.me/?text=Hi%2C+I+want+to+order+the+ZZ+Plant" class="card-btn">Order via WhatsApp</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- Care Tips -->
-  <section id="care" class="section care-section">
-    <div class="section-header">
-      <h2>Plant Care Essentials</h2>
-      <p>Three golden rules to keep your green companions healthy.</p>
-    </div>
-
-    <div class="care-grid">
-      <div class="care-box">
-        <h3>1. Light over Water</h3>
-        <p>Most indoor plants prefer medium, indirect sun. Avoid intense direct afternoon rays that scorch foliage.</p>
+      <div class="product-card">
+        <img src="assets/dates.png" alt="Medjool Dates">
+        <span class="tag">Naturally Rich</span>
+        <h3>Medjool Dates</h3>
+        <p>Deliciously soft. Enjoy on their own, stuffed or blended.</p>
+        <p class="sizes">Available in 500 g &amp; 1 kg boxes</p>
+        <a class="btn-outline" href="https://wa.me/?text=Hi%2C%20I%27d%20like%20to%20order%20Medjool%20Dates">Order via WhatsApp</a>
       </div>
-      <div class="care-box">
-        <h3>2. Check the Soil</h3>
-        <p>Poke a finger 2 inches into the soil. If it feels completely dry, give it a deep drink. If damp, wait 2–3 days.</p>
-      </div>
-      <div class="care-box">
-        <h3>3. Drainage is Vital</h3>
-        <p>Ensure your planters have bottom drainage holes so roots never sit in standing water.</p>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <div class="footer-wrap">
-      <div>
-        <h3>The Plant Chapter</h3>
-        <p>Bringing greenery, calmness, and mindful spaces to every home.</p>
+      <div class="product-card">
+        <img src="assets/tofu.png" alt="Silken and Firm Tofu">
+        <span class="tag">Contains Soy</span>
+        <h3>Silken &amp; Firm Tofu</h3>
+        <p>Silken for soups, sauces &amp; creamy blends. Firm for curries, grills &amp; stir-fry.</p>
+        <p class="sizes">Available in 200 g packs</p>
+        <a class="btn-outline" href="https://wa.me/?text=Hi%2C%20I%27d%20like%20to%20order%20Tofu">Order via WhatsApp</a>
       </div>
-      <div>
-        <h4>Connect</h4>
-        <p>Email: hello@theplantchapter.in</p>
-        <p>Web: theplantchapter.com | theplantchapter.in</p>
+
+      <div class="product-card">
+        <img src="assets/protein-bar.png" alt="Protein Bar">
+        <span class="tag">Zero Rubbish</span>
+        <h3>Protein Bar</h3>
+        <p>Your everyday snack, made from dates &mdash; nothing artificial.</p>
+        <a class="btn-outline" href="https://wa.me/?text=Hi%2C%20I%27d%20like%20to%20order%20a%20Protein%20Bar">Order via WhatsApp</a>
       </div>
+
     </div>
-    <p class="copyright">© 2026 The Plant Chapter. All rights reserved.</p>
-  </footer>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-inner">
+    <img src="assets/logo-full.png" alt="The Plant Chapter" class="about-logo">
+    <p>The Plant Chapter is a plant-based food brand by The Everyday Basket LLP. We keep our ingredient lists short and our sourcing honest &mdash; because the best food often needs nothing added.</p>
+  </div>
+</section>
+
+<footer id="contact" class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <h4>The Plant Chapter</h4>
+      <p>A brand by The Everyday Basket LLP</p>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <p>Email: <a href="mailto:hello@theplantchapter.in">hello@theplantchapter.in</a></p>
+      <p>Web: theplantchapter.com | theplantchapter.in</p>
+    </div>
+  </div>
+  <p class="copyright">&copy; 2026 The Plant Chapter, a brand of The Everyday Basket LLP. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
+
+  
